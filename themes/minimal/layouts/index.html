@@ -1,0 +1,21 @@
+{{ partial "header" . }}
+
+<main>
+    <div class="intro">
+        {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
+        <h1 style="font-size: 70px">{{ .Site.Title }}</h1>
+        <h4>{{ markdownify .Site.Params.Description }}</h4>
+        <div style="">
+    		<a style="font-size:18px;margin: 2px" href="mailto:adammmfs@gmail.com"><i class="fa fa-envelope"></i></a>
+    		<a style="font-size:18px;margin: 2px" href="https://github.com/adamzvx"><i class="fa fa-github "></i></a>
+    		<a style="font-size:18px;margin: 2px" href="https://t.me/adamzvx"><i class="fa fa-telegram"></i></a>
+    		<a style="font-size:18px;margin: 2px" href="https://instagram.com/adam.zvx"><i class="fa fa-instagram"></i></a>
+
+    	</div>
+        {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
+    </div>
+
+</main>
+
+
+{{ partial "footer" . }}
