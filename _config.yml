@@ -5,7 +5,7 @@
 # Site
 title: /home/of/adam
 subtitle: 'Hello:'
-description: 'Pengguna sekaligus pengkampanye linux dan produk FLOSS lainnya. Senang ngaji terutama ilmu <i>Ad-Dlaruri</i> dan Teologi. Pendidikan formal <i>Computer Science</i> di salah satu Perguruan Tinggi Negeri. Halaman situs berisi beberapa cerita dan catatan untuk publik atau pribadi.'
+description: 'Pengguna dan pengkampanye linux serta produk FLOSS lain. Pendidikan formal <i>Computer Science</i> di salah satu Perguruan Tinggi Negeri. Senang ngaji terutama ilmu <i>Ad-Dlaruri</i> dan Teologi yang meyakini Tuhan Ada Tanpa Dimensi. Halaman situs berisi beberapa cerita dan catatan untuk publik atau pribadi.'
 keywords: 'adam zvx, adam zux, blog'
 author: 'adamzux' 
 language: id
@@ -15,7 +15,8 @@ timezone: ''
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
