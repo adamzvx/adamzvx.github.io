@@ -5,3 +5,12 @@ db.json
 node_modules/
 public/
 .deploy*/
+
+themes/cactus/.DS_Store
+themes/cactus/.idea/
+themes/cactus/*.log
+themes/cactus/*.iml
+themes/cactus/.tern-port
+themes/cactus/yarn.lock
+themes/cactus/package-lock.json
+themes/cactus/node_modules/
